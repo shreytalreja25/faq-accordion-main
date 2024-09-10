@@ -22,14 +22,35 @@ body {
     min-height: 285px;
 }
 
-button{
+button {
     text-decoration: none;
     background-color: white;
     border: 0;
 }
 
-.faq-ques{
+.faq-ques {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.faq-ques p {
+    font-weight: bold;
+}
+
+.faq-ans p {
+    font-weight: 100;
+}
+
+.faq-acc-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.faq-acc-card-header img {
+    margin-right: 20px;
 }

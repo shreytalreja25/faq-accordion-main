@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(./assets/images/background-pattern-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-acc-container {
+    width: 100px;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    min-height: 285px;
+}
+
+button{
+    text-decoration: none;
+    background-color: white;
+    border: 0;
+}
+
+.faq-ques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
